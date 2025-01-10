@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+    background: linear-gradient(to bottom, #000, #121212);
+}
+
+main{
+    margin: 0px 10px;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgb(52, 52, 52);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+ .top h1 {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 40px;
+    margin:5px 0px ;
+    color: white;
+
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.top p{
+    font-family: "Poiret One", serif;
+    font-weight: bold;
+    font-style: normal;
+    margin:5px 0px ;
+    font-size: 17px;
+   
+        background-image: linear-gradient(to right, #fa57fa, #ff9900, #ffff85, #90fc90, #00ffff, #7676ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+     
+}
+
+.paras{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.directly{
+    background: rgb(61, 61, 61);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.section3{
+    text-align: center;
+    
+}
+
+.section3 p{
+    font-size: 12px;
+}
+
+.section3 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color:rgb(122, 122, 121);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(82, 151, 255);
+}
+
+.embed1{
+    height: 788px
+}
+
+embed{
+    height: 100%;
+    width: 90%;
+}
+
+h3{ font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin:5px 0px ;
+    color: white;
+
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.table-container {
+    margin-bottom: 7px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+
+}
+th {
+    background-color: #8A2BE2;
+    color: white;
+}
+.first-recharge th, .first-recharge td {
+    background-color: #b93b4e;
+    color: white;
+}
+.second-recharge th, .second-recharge td {
+    background-color: #FF69B4;
+    color: white;
+}
+.third-recharge th, .third-recharge td {
+    background-color: #9932CC;
+    color: white;
+}
+.header {
+    background-color: #1d2735;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.note {
+    background-color: #0a2850;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+
+    font-size: 12px;
+}
+
+.table1{
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+
+}
+
+.video-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+h4{
+    font-size: 18px;
+    font-style: italic;
+   letter-spacing: 4px;
+   background:linear-gradient(45deg, #ff0000, transparent);
+   padding: 5px;
+   color: white;
+   margin: 8px 0px;
+}
+
+
+.daily-salary th, .daily-salary td {
+    background-color: #6973ff;
+    color: white;
+}
+
+.daily-salary thead th {
+    background-color: #8A2BE2;
+}
+
+.daily-salary thead th:nth-child(2) {
+    background-color: #A52A2A;
+}
+
+.daily-salary thead th:nth-child(3) {
+    background-color: #DC143C;
+}
+
+.monthimg{
+    text-align: center;
+}
